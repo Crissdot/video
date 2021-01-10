@@ -21,7 +21,7 @@ body {
     height: 100%;
 }
 .header__menu {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .header__menu--profile {
     display: flex;
@@ -62,6 +62,10 @@ body {
 
 
 .searcher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 300px;
 }
 .searcher__title {
@@ -69,15 +73,15 @@ body {
     font-size: 1.5rem;
 }
 .searcher__input {
+    width: 70%;
+    height: 50px;
+    padding: 0 20px;
     border: 2px solid white;
     border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 1rem;
-    height: 50px;
-    padding: 0 20px;
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.1);
     outline: none;
 }
 ::placeholder {
@@ -87,12 +91,12 @@ body {
 
 .categories__title {
     position: absolute;
-    width: 100%;
     padding-left: 30px;
     color: white;
     font-size: 1rem;
 }
 .carousel {
+    box-sizing: border-box;
     position: relative;
     overflow: scroll;
     width: 100%;
