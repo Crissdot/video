@@ -136,6 +136,12 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+    .header {
+        justify-content: center;
+    }
+    .logo__text {
+        display: none;
+    }
     .login__container {
         background-color: transparent;
         border: none;
